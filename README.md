@@ -1,9 +1,8 @@
-
-﻿# SpringBoot-POS
+# SpringBoot-POS
 
 This is a Spring Boot Web POS System.
 ###
-[![wakatime](https://wakatime.com/badge/github/NimeshPiyumantha/SpringBoot-POS.svg)](https://wakatime.com/badge/github/NimeshPiyumantha/SpringBoot-POS)
+[![wakatime](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/235dfe67-9073-43f9-83e1-a9a0f500f367.svg)](https://wakatime.com/badge/user/bde2acba-42bd-46e8-a905-d74c6f260407/project/235dfe67-9073-43f9-83e1-a9a0f500f367)
 ### - Back End
 * Spring Boot
 * Maven
