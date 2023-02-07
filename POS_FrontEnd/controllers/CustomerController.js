@@ -3,7 +3,7 @@
  * @since : 0.1.0
  **/
 
-let baseUrl = "http://localhost:8080/POS_BackEnd_war/";
+let baseUrl = "http://localhost:8080/springBoot/";
 loadAllCustomer();
 /**
  * Customer Save
