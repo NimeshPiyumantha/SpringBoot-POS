@@ -1,0 +1,13 @@
+Index: POS_FrontEnd/POS_FrontEnd/package.json
+===================================================================
+diff --git a/POS_FrontEnd/POS_FrontEnd/package.json b/POS_FrontEnd/POS_FrontEnd/package.json
+deleted file mode 100644
+--- a/POS_FrontEnd/POS_FrontEnd/package.json	(revision 4d1c37293dab6b0b5edb018ff0daf1265f507bb2)
++++ /dev/null	(revision 4d1c37293dab6b0b5edb018ff0daf1265f507bb2)
+@@ -1,6 +0,0 @@
+-{
+-  "name": "POS_FrontEnd",
+-  "version": "1.0.0",
+-  "dependencies": {
+-  }
+-}
