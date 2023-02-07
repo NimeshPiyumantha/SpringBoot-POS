@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web POS</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--link Bootstrap Framework-->
+    <link href="assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!--Nav started-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg posNavi position-relative rounded-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fw-bold " href="#">
+                <img alt="Logo" class="d-inline-block align-text-center" height="44" src="assets/images/logo.png"
+                     width="50">
+                <span class="text-success"> Nimesh </span> POS System
+            </a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="homeBtn">
+                        <a aria-current="page" class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="customerBtn">
+                        <a class="nav-link" href="pages/customer.html">Customer </a>
+                    </li>
+                    <li class="nav-item" id="itemBtn">
+                        <a class="nav-link" href="pages/item.html">Items</a>
+                    </li>
+                    <li class="nav-item" id="orderBtn">
+                        <a class="nav-link" href="pages/orders.html">Orders</a>
+                    </li>
+                    <li class="nav-item" id="orderDetailsBtn">
+                        <a class="nav-link" href="pages/orderDetails.html">Order Details</a>
+                    </li>
+
+                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-outline-primary btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
+                        Sign Up
+                    </button>
+                    <button class="btn btn-outline-secondary" type="button"><i
+                            class="fa-solid fa-right-from-bracket"></i> Log Out
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Nav ended-->
+</header>
+
+<!-- Home Start-->
+<main class="container-fluid mt-2" id="HomeSection">
+
+    <div class="jumbotron pt-md-4">
+        <div id="home-tiles">
+            <div class="row ">
+                <div class="col-lg-6 col-xl-3 mb-2">
+                    <div class="card sectionBorder">
+                        <div class="card-header bg-secondary font-weight-bolder">Customers</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon"><i class="bi bi-people-fill"></i></div>
+                            <div class="dash-tile-text text-right text-black-50"><h2 id="txtCustomerCount">00</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 mb-2">
+                    <div class="card sectionBorder">
+                        <div class="card-header bg-secondary font-weight-bolder">Items</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon"><i class="bi bi-boxes"></i></div>
+                            <div class="dash-tile-text text-right text-black-50"><h2 id="txtItemsCount">00</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 mb-2">
+                    <div class="card sectionBorder">
+                        <div class="card-header bg-secondary font-weight-bolder">My Orders</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon"><i class="bi bi-cart-fill"></i></div>
+                            <div class="dash-tile-text text-right text-black-50"><h2 id="txtOrderCount">00</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-3 mb-2">
+                    <div class="card sectionBorder">
+                        <div class="card-header bg-secondary font-weight-bolder">Settings</div>
+                        <div class="card-body">
+                            <div class="dash-tile-icon" style=""><i class="bi bi-gear-wide-connected"></i></div>
+                            <div class="dash-tile-text text-right text-black-50">
+                                <h2>
+                                    <button class="btn btn-primary">new</button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--slider started-->
+    <div class="carousel carousel-dark slide" data-bs-ride="carousel" id="carouselExampleCaptions">
+        <div class="carousel-indicators">
+            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                    data-bs-target="#carouselExampleCaptions" type="button"></button>
+            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 5" data-bs-slide-to="4" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 6" data-bs-slide-to="5" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 7" data-bs-slide-to="6" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 8" data-bs-slide-to="7" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 9" data-bs-slide-to="8" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 10" data-bs-slide-to="9" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="..." class="d-block w-100" src="assets/images/1.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/2.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/3.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/4.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/5.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/6.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/7.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/8.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/9.jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100" src="assets/images/10.jpeg">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
+                type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions"
+                type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--slider ended-->
+</main>
+<!-- Home End-->
+
+<!--Import js for bootstrap-->
+<script src="assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+
+<!--import jQuery library-->
+<script rel="script" src="assets/styles/jQuery/jquery-3.6.1.min.js"></script>
+
+<script src="controllers/DashboardController.js"></script>
+</body>
+</html>

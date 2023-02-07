@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efe110da-31ba-40d6-8846-4c0fee2fe851" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SpringBoot_Web-POS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/WebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/advisor/AppWideExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/config/JPAConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/config/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/config/WebRootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/controller/PlaceOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/dto/CustomDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/dto/OrderDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/dto/OrdersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/entity/OrderDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/entity/OrderItem_PK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/repo/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/repo/ItemRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/repo/OrderDetailsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/repo/PlaceOrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/service/PlaceOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/service/impl/PlaceOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/java/lk/ijse/spring/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_BackEnd/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POS_FrontEnd/POS_FrontEnd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd_POS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot_Web-POS.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LPQzrqdckDp79Ui3Z4b8OSpKCs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Project/SpringBoot_Web-POS/POS_BackEnd/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "spring.configuration.checksum": "e1c4deab7c7755e02a0bccaeb0787889",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\SpringBoot_Web-POS\POS_BackEnd\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.831" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.831" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="POS_BackEnd:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/POS_BackEnd_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b2db2f85-118f-4cff-99fd-3316943404a9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3042" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="POS_BackEnd:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efe110da-31ba-40d6-8846-4c0fee2fe851" name="Changes" comment="" />
+      <created>1675770503053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675770503053</updated>
+      <workItem from="1675770504029" duration="365000" />
+      <workItem from="1675770891702" duration="177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -7,11 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BackEnd_POS" />
+        <module name="POS_BackEnd" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="BackEnd_Pos" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

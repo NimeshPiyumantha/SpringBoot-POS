@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web POS</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--link Bootstrap Framework-->
+    <link href="../assets/styles/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/styles/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!--Nav started-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-lg posNavi position-relative rounded-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fw-bold " href="#">
+                <img alt="Logo" class="d-inline-block align-text-center" height="44" src="../assets/images/logo.png"
+                     width="50">
+                <span class="text-success"> Nimesh </span> POS System
+            </a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="homeBtn">
+                        <a aria-current="page" class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="customerBtn">
+                        <a class="nav-link" href="customer.html">Customer </a>
+                    </li>
+                    <li class="nav-item" id="itemBtn">
+                        <a class="nav-link" href="item.html">Items</a>
+                    </li>
+                    <li class="nav-item" id="orderBtn">
+                        <a class="nav-link" href="orders.html">Orders</a>
+                    </li>
+                    <li class="nav-item" id="orderDetailsBtn">
+                        <a class="nav-link" href="orderDetails.html">Order Details</a>
+                    </li>
+
+                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-outline-primary btn-m" type="button"><i class="fa-solid fa-user-plus"></i>
+                        Sign Up
+                    </button>
+                    <button class="btn btn-outline-secondary" type="button"><i
+                            class="fa-solid fa-right-from-bracket"></i> Log Out
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Nav ended-->
+</header>
+
+<!-- OrderDetails Start-->
+<main class="container-fluid" id="OrderDetails">
+    <!-- Order Header Start -->
+    <div class="container d-flex flex-grow-1 flex-column">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h2 id="H1" style="font-family: 'Arial Rounded MT Bold',serif"><i
+                    class="bi bi-cart-check"></i> Orders View
+            </h2>
+        </div>
+    </div>
+    <!-- Order Header End -->
+
+    <!-- Order Header Section Start -->
+    <div class="container d-flex flex-grow-1 flex-column sectionBorder"
+         style="background-color: #dfe4ea;height: max-content">
+        <div class="position-relative d-inline-block mt-3 mt-lg-4 mt-md-4">
+            <h6 id="H6-4">Home > Orders Details</h6>
+            <hr>
+        </div>
+        <!-- Order Header Section End -->
+
+        <!-- Order Details Section Start -->
+        <div class="row justify-content-around" style="height: max-content">
+
+            <div class="row justify-content-evenly h-50">
+
+                <!-- Table Order -->
+                <section
+                        class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 mt-2 mb-4 sectionBorder "
+                        style="background: white">
+                    <h4 class="text-center p-2 text-light rounded-5 col-12 ubFt" style="background: #16A085">Orders</h4>
+                    <!-- View Orders Table Start -->
+                    <div class="col-11 justify-content-around " style="height: 250px;">
+                        <div class="PlaceOrderTableDiv overflow-auto" style="height: 230px;">
+                            <table class="table table-success table-striped table-bordered table-hover">
+                                <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                                <tr>
+                                    <th>Order Id</th>
+                                    <th>Order Date</th>
+                                    <th>Customer Id</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tblOrder"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- View Orders Table End -->
+
+                <!-- Table Order Details-->
+                <section
+                        class="d-flex flex-column h-100 col-10 col-xl-11 shadow-lg rounded-3 align-items-center pt-3 sectionBorder "
+                        style="background: white">
+                    <h4 class="text-center  p-2 text-light rounded-5 col-12 " style="background: #16A085">Orders
+                        Details</h4>
+                    <!-- View Order Details Table Start -->
+                    <div class="col-11 justify-content-around " style="height: 250px;">
+                        <div class="PlaceOrderTableDiv overflow-auto" style="height: 230px;">
+                            <table class="table table-success table-striped table-bordered table-hover">
+                                <thead class="text-light table-dark text-center  table-bordered sticky-top">
+                                <tr>
+                                    <th>Order Id</th>
+                                    <th>Item Code</th>
+                                    <th>Qty</th>
+                                    <th>Total</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tblOrderDetails"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- View Order Details Table End -->
+
+            </div>
+
+        </div>
+        <!-- Order Details Section End -->
+    </div>
+</main>
+<!-- OrderDetails End-->
+
+<!--Import js for bootstrap-->
+<script src="../assets/styles/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+
+<!--import jQuery library-->
+<script rel="script" src="../assets/styles/jQuery/jquery-3.6.1.min.js"></script>
+
+<script src="../controllers/OrderViewsController.js"></script>
+</body>
+</html>
